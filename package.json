@@ -1,0 +1,23 @@
+{
+  "name": "github-commit-reminder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsdom": "^21.1.6",
+    "@vercel/node": "^3.0.17",
+    "i": "^0.3.7",
+    "jsdom": "^24.0.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "npm": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.2"
+  }
+}
