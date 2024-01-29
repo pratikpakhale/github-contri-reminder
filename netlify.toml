@@ -1,5 +1,11 @@
-# ./netlify.toml
+# ./netlify.toml 
+
+[functions]  
+  node_bundler = "esbuild"  
+  ignored_node_modules = ["ky-universal"]
+  external_node_modules = ["jsdom"]
+
 
 [functions."cron"]
-schedule = "* * * * *"
+  schedule = "*/15 21,22,23 * * *"
 

@@ -54,6 +54,6 @@ async function main() {
   }
 }
 
-export default async (req: Request) => {
+exports.handler = async (req: Request) => {
   main();
 };
