@@ -7,5 +7,6 @@
 
 
 [functions."cron"]
-  schedule = "*/15 21,22,23 * * *"
+  schedule = "*/15 15,16,17 * * *"
 
+# above cron is utc equivalent to ist "*/15 21,22,23 * * *"
