@@ -1,10 +1,5 @@
 # ./netlify.toml
 
 [functions."cron"]
-schedule = "*/15 21 * * *"
+schedule = "@hourly"
 
-[functions."cron"]
-schedule = "*/15 22 * * *"
-
-[functions."cron"]
-schedule = "*/15 23 * * *"
