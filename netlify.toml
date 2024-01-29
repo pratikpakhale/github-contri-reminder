@@ -1,0 +1,10 @@
+# ./netlify.toml
+
+[functions."cron"]
+schedule = "*/15 21 * * *"
+
+[functions."cron"]
+schedule = "*/15 22 * * *"
+
+[functions."cron"]
+schedule = "*/15 23 * * *"
