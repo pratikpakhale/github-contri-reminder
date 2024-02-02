@@ -51,6 +51,8 @@ async function hasContributions() {
 async function main() {
   if (!(await hasContributions())) {
     sendMessage("push your today's work bbg!");
+  }else{
+    sendMessage("dont push your today's work bbg!");
   }
 }
 
