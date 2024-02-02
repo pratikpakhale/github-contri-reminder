@@ -57,5 +57,6 @@ async function main() {
 }
 
 exports.handler = async (req: Request) => {
-  main();
+  await main();
+  console.log("cron called");
 };
