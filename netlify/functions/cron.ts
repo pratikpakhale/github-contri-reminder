@@ -51,9 +51,13 @@ async function hasContributions() {
 async function main() {
   if (!(await hasContributions())) {
     sendMessage("push your today's work bbg!");
+  }else{
+    // sendMessage("dont push your today's work bbg!");
+    // do nothing
   }
 }
 
 exports.handler = async (req: Request) => {
-  main();
+  await main();
+  console.log("cron called");
 };
