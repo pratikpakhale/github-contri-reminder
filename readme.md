@@ -1,5 +1,7 @@
 # github contribution reminder
 
+NOTE : ONLY USE THIS AS A REMINDER FOR YOUR ACTUAL WORK. DO NOT USE THIS TO FAKE YOUR GITHUB COMMITS.
+
 what does it do? - <br />
 &nbsp;&nbsp;&nbsp;&nbsp;it reminds you via dms(telegram) on the provided cron timestamps.
 
